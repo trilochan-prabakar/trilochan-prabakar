@@ -1,121 +1,136 @@
-<!-- Profile README for github.com/trilochan-prabakar -->
+<!--
+  TRILOCHAN PRABAKAR | CYBERSECURITY PORTFOLIO
+  Profile repository: github.com/trilochan-prabakar/trilochan-prabakar
+-->
 
 <div align="center">
+  <img src="./assets/cyber-banner.svg" width="100%" alt="Trilochan Prabakar — Cybersecurity and Security Engineering" />
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=27&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=780&lines=TRILOCHAN+PRABAKAR;Cybersecurity+%7C+Security+Engineering;Building+tools.+Learning+by+doing." alt="Typing introduction" />
-
-<p>
-  <b>CYBERSECURITY STUDENT</b> &nbsp;•&nbsp;
-  <b>SECURITY ENGINEERING</b> &nbsp;•&nbsp;
-  <b>DIGITAL FORENSICS</b>
-</p>
-
-<img src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-0B1220?style=for-the-badge&labelColor=0B1220&color=22D3EE" alt="Focus: Cybersecurity" />
-<img src="https://img.shields.io/badge/BASED_IN-INDIA-0B1220?style=for-the-badge&labelColor=0B1220&color=22D3EE" alt="Based in India" />
-<img src="https://komarev.com/ghpvc/?username=trilochan-prabakar&style=for-the-badge&color=0891B2&label=PROFILE+VIEWS" alt="Profile views" />
-
+<div align="center">
+  <a href="https://github.com/trilochan-prabakar">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=850&color=22D3EE&center=true&vCenter=true&width=700&lines=Cybersecurity+Student;Security+Engineering+%2F+Digital+Forensics;Building+practical+defensive+tools" alt="Animated introduction" />
+  </a>
+  <br/>
+  <img src="https://img.shields.io/badge/BASED_IN-INDIA-0B1220?style=flat-square&labelColor=0B1220&color=22D3EE" alt="Based in India" />
+  <img src="https://img.shields.io/badge/FOCUS-SECURITY_ENGINEERING-0B1220?style=flat-square&labelColor=0B1220&color=22D3EE" alt="Focus: Security Engineering" />
+  <img src="https://komarev.com/ghpvc/?username=trilochan-prabakar&style=flat-square&color=0891B2&label=PROFILE+VIEWS" alt="Profile views" />
 </div>
 
 ---
 
-## `> whoami`
+## 01 / PROFILE
 
-I'm a **B.Tech Cybersecurity student at Amrita Vishwa Vidyapeetham** interested in how systems work, how they fail, and how to make them more secure.
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <h3>Hey, I'm Trilochan.</h3>
+      <p>I'm a <b>B.Tech Cybersecurity student at Amrita Vishwa Vidyapeetham</b>. I'm interested in understanding systems from the inside, investigating how they can be compromised, and building practical tools that improve visibility and defense.</p>
+      <p>My approach is hands-on: learn the fundamentals, build something, test it, break it, and improve it.</p>
+    </td>
+    <td width="42%" valign="top">
+      <b>FOCUS AREAS</b><br/><br/>
+      ▸ Security engineering<br/>
+      ▸ Digital &amp; memory forensics<br/>
+      ▸ Network security<br/>
+      ▸ Security monitoring<br/>
+      ▸ Incident response
+    </td>
+  </tr>
+</table>
 
-I learn by building practical tools and exploring system security, network analysis, digital forensics, and incident response.
-
-- 🔐 Interested in security engineering and cyber defense
-- 🐧 Working with Linux, Python, C, and networking technologies
-- 🧪 Enjoy hands-on experimentation, debugging, and technical problem-solving
-- 🎯 Focused on building useful projects and strengthening core CS fundamentals
-
-## `> technical_stack`
+## 02 / TOOLKIT
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,c,linux,bash,git,github,vscode&theme=dark" alt="Python, C, Linux, Bash, Git, GitHub, VS Code" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Wireshark-Network_Analysis-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
-<img src="https://img.shields.io/badge/TCP%2FIP-Networking-0891B2?style=flat-square" alt="TCP/IP" />
-<img src="https://img.shields.io/badge/Cisco_Packet_Tracer-Network_Labs-1BA0D7?style=flat-square" alt="Cisco Packet Tracer" />
-
+  <h3>Languages · Systems · Tools</h3>
+  <img src="https://skillicons.dev/icons?i=python,c,bash,linux,windows,git,github,vscode&theme=dark" alt="Python, C, Bash, Linux, Windows, Git, GitHub, VS Code" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/WIRESHARK-PACKET_ANALYSIS-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark packet analysis" />
+  <img src="https://img.shields.io/badge/TCP%2FIP-NETWORKING-0E7490?style=for-the-badge" alt="TCP/IP networking" />
+  <img src="https://img.shields.io/badge/CISCO_PACKET_TRACER-NETWORK_LABS-0369A1?style=for-the-badge" alt="Cisco Packet Tracer" />
 </div>
 
-## `> featured_project`
+| Domain | Technologies / Concepts |
+|:--|:--|
+| Programming | Python, C, Bash |
+| Operating systems | Linux, Windows |
+| Networking | TCP/IP, Wireshark, Cisco Packet Tracer |
+| Developer workflow | Git, GitHub, VS Code |
+| Security interests | File integrity monitoring, system security, digital forensics, incident response |
+
+## 03 / FEATURED BUILD
 
 <div align="center">
-
-<a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trilochan-prabakar&repo=IntegrityWatch-Lite&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE" alt="IntegrityWatch Lite repository card" />
-</a>
-
+  <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=trilochan-prabakar&repo=IntegrityWatch-Lite&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=C9D1D9" alt="IntegrityWatch Lite repository card" />
+  </a>
 </div>
 
-### IntegrityWatch Lite — Explainable File Integrity Monitoring
+### IntegrityWatch Lite
+**Explainable File Integrity Monitoring**
 
-A local file-integrity monitoring tool for a controlled Linux-like lab. It detects file changes, explains supported security-relevant modifications using rules and severity levels, and records tamper-evident audit history.
+A local-first security tool that monitors a controlled Linux-like lab, detects file changes, explains security-relevant modifications using explicit rules, and maintains a tamper-evident audit history.
 
-- **Detection:** SHA-256 baselines, metadata checks, and semantic configuration rules
-- **Security context:** Severity levels and MITRE ATT&CK references
-- **Auditability:** HMAC-authenticated baseline and hash-chained SQLite audit log
-- **Interface:** Local Streamlit dashboard and repeatable evaluation/demo workflows
-- **Stack:** Python, Watchdog, SQLite, PyYAML, Streamlit
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>DETECTION &amp; ANALYSIS</b><br/><br/>
+      ▸ SHA-256 file baselines<br/>
+      ▸ Filesystem event monitoring + reconciliation<br/>
+      ▸ Semantic checks for selected configuration files<br/>
+      ▸ Severity levels and MITRE ATT&amp;CK references
+    </td>
+    <td width="50%" valign="top">
+      <b>INTEGRITY &amp; VISIBILITY</b><br/><br/>
+      ▸ HMAC-authenticated baseline<br/>
+      ▸ Hash-chained SQLite audit history<br/>
+      ▸ Local Streamlit dashboard<br/>
+      ▸ Smart-rule vs hash-only evaluation
+    </td>
+  </tr>
+</table>
 
-[Explore the project →](https://github.com/trilochan-prabakar/IntegrityWatch-Lite)
+**Built with:** Python · Watchdog · SQLite · PyYAML · Streamlit · pytest
 
-## `> areas_of_interest`
+The project is designed for controlled, local evaluation and learning—not as a claim of enterprise endpoint protection.
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/Digital_Forensics-0B1220?style=for-the-badge&logo=autopsy&logoColor=22D3EE" alt="Digital Forensics" />
-<img src="https://img.shields.io/badge/Incident_Response-0B1220?style=for-the-badge&logo=securityscorecard&logoColor=22D3EE" alt="Incident Response" />
-<img src="https://img.shields.io/badge/Network_Security-0B1220?style=for-the-badge&logo=wireshark&logoColor=22D3EE" alt="Network Security" />
-<img src="https://img.shields.io/badge/Linux_Security-0B1220?style=for-the-badge&logo=linux&logoColor=22D3EE" alt="Linux Security" />
-
+  <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">
+    <img src="https://img.shields.io/badge/OPEN_PROJECT-22D3EE?style=for-the-badge&logo=github&logoColor=0B1220&labelColor=0B1220" alt="Open IntegrityWatch Lite project" />
+  </a>
 </div>
 
-Currently exploring:
-- Linux internals and system security
-- Memory forensics and incident response
-- Security monitoring and network traffic analysis
-- Practical defensive security engineering
-
-## `> github_stats`
+## 04 / CURRENT LEARNING TRACK
 
 <div align="center">
-
-<a href="https://github.com/trilochan-prabakar">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&include_all_commits=true" alt="GitHub stats" />
-</a>
-<a href="https://github.com/trilochan-prabakar">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE" alt="Most used languages" />
-</a>
-
-<br/>
-
-<img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=trilochan-prabakar&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE" alt="GitHub contribution streak" />
-
-<br/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=trilochan-prabakar&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true" alt="GitHub contribution activity graph" />
-
+  <img src="https://img.shields.io/badge/01-LINUX_INTERNALS-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Linux internals" />
+  <img src="https://img.shields.io/badge/02-MEMORY_FORENSICS-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Memory forensics" />
+  <img src="https://img.shields.io/badge/03-INCIDENT_RESPONSE-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Incident response" />
+  <img src="https://img.shields.io/badge/04-NETWORK_ANALYSIS-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Network analysis" />
 </div>
 
-## `> connect`
+I’m continuing to develop my understanding through coursework, labs, technical projects, and practical experimentation.
+
+## 05 / GITHUB ACTIVITY
 
 <div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&rank_icon=github&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=C9D1D9" alt="GitHub statistics" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=67E8F9&text_color=C9D1D9" alt="Most used languages" />
+  <br/><br/>
+  <img width="92%" src="https://streak-stats.demolab.com?user=trilochan-prabakar&theme=tokyonight&hide_border=true&background=0B1220&ring=22D3EE&fire=22D3EE&currStreakLabel=67E8F9" alt="GitHub contribution streak" />
+  <br/><br/>
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=trilochan-prabakar&bg_color=0B1220&color=C9D1D9&line=22D3EE&point=67E8F9&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
+</div>
 
-<a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://github.com/trilochan-prabakar">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
+## 06 / CONNECT
 
-<br/><br/>
-
-**Always learning. Always building.**
-
+<div align="center">
+  <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/">
+    <img src="https://img.shields.io/badge/LINKEDIN-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+  </a>
+  <a href="https://github.com/trilochan-prabakar">
+    <img src="https://img.shields.io/badge/GITHUB-FOLLOW_MY_WORK-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" />
+  </a>
+  <br/><br/>
+  <sub><b>LEARN DEEPLY. BUILD PRACTICALLY. DEFEND BETTER.</b></sub>
 </div>
