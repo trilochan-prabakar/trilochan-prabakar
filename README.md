@@ -6,6 +6,7 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/trilochan-prabakar"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://trilochan-prabakar.github.io/trilochan-prabakar/"><img src="https://img.shields.io/badge/PORTFOLIO-VISIT-55D9E8?style=flat-square&logo=googlechrome&logoColor=07131C" alt="Portfolio website" /></a>
   <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite"><img src="https://img.shields.io/badge/FEATURED_PROJECT-INTEGRITYWATCH-0E7490?style=flat-square" alt="Featured project" /></a>
 </div>
 
