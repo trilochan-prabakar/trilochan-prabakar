@@ -1,84 +1,84 @@
-<!-- Profile README — Trilochan Prabakar -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/hero.svg" width="100%" alt="Trilochan Prabakar — Cybersecurity portfolio" />
-</div>
+  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/hero.svg" width="100%" alt="Trilochan Prabakar — Security engineering, digital forensics and incident response" />
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/trilochan-prabakar"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://trilochan-prabakar.github.io/trilochan-prabakar/"><img src="https://img.shields.io/badge/PORTFOLIO-VISIT-55D9E8?style=flat-square&logo=googlechrome&logoColor=07131C" alt="Portfolio website" /></a>
-  <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite"><img src="https://img.shields.io/badge/FEATURED_PROJECT-INTEGRITYWATCH-0E7490?style=flat-square" alt="Featured project" /></a>
-</div>
+  <h2>Building practical tools. Understanding how systems fail.</h2>
+  <p>
+    B.Tech Cybersecurity student at <strong>Amrita Vishwa Vidyapeetham</strong><br/>
+    Interested in security engineering, Linux systems, digital forensics and incident response.
+  </p>
 
-<h3 align="center">Cybersecurity student · Security engineering · Digital forensics</h3>
-<p align="center">I build practical security tools and learn by investigating how systems behave.</p>
+  <a href="https://trilochan-prabakar.github.io/trilochan-prabakar/"><img src="https://img.shields.io/badge/PORTFOLIO-Explore-55D9E8?style=for-the-badge&logo=googlechrome&logoColor=07131C" alt="Portfolio website" /></a>
+  <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite"><img src="https://img.shields.io/badge/FEATURED_PROJECT-IntegrityWatch-0E7490?style=for-the-badge&logo=github&logoColor=white" alt="IntegrityWatch Lite repository" /></a>
+</div>
 
 ---
 
-## 01 / Profile
+## About
 
-I'm a B.Tech Cybersecurity student at **Amrita Vishwa Vidyapeetham**, interested in the systems behind security events: how files and services behave, how suspicious changes can be detected, and how evidence can be preserved and investigated.
+I'm a cybersecurity student who enjoys understanding what happens beneath the surface of a system: how files and services behave, how suspicious changes can be identified, and how digital evidence can be preserved.
 
-My approach is hands-on: strengthen the fundamentals, build focused tools, test them against controlled scenarios, and document what they can—and cannot—prove.
+I learn by building, testing and documenting practical security tools. I care about understanding the engineering behind a result—not just making a demo work.
 
-| Focus area | What I'm exploring |
-|:--|:--|
-| **Security engineering** | Defensive tooling, integrity monitoring, explainable detection |
-| **Systems** | Linux, operating-system behaviour, configuration security |
-| **Forensics** | Digital forensics, memory forensics, evidence handling |
-| **Network security** | TCP/IP, traffic analysis, network troubleshooting |
-| **Incident response** | Alert triage, investigation workflows, response automation |
+**Areas I'm focused on**
+- Security engineering and defensive tooling
+- Linux and operating-system security
+- Digital forensics and memory forensics
+- Network security and traffic analysis
+- Incident response and investigation workflows
 
-## 02 / Featured work
+## Featured project
 
 ### IntegrityWatch Lite
 **Explainable file-integrity monitoring for a controlled Linux-like lab**
 
-[![Open repository](https://img.shields.io/badge/OPEN_PROJECT-IntegrityWatch_Lite-0E7490?style=flat-square&logo=github&logoColor=white)](https://github.com/trilochan-prabakar/IntegrityWatch-Lite)
+<a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-IntegrityWatch_Lite-0E7490?style=flat-square&logo=github&logoColor=white" alt="View IntegrityWatch Lite repository" />
+</a>
 
-A local-first tool that detects changes in a synthetic lab, explains supported security-relevant modifications through explicit rules, and records findings in a tamper-evident audit history.
+IntegrityWatch Lite monitors a synthetic Linux-like lab, detects file and selected metadata changes, explains supported security-relevant modifications through explicit rules, and records findings in a tamper-evident audit history.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/integritywatch-architecture.svg" width="100%" alt="IntegrityWatch Lite architecture: synthetic lab, scanner, detection engine, SQLite findings, authenticated baseline and audit chain" />
+  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/integritywatch-architecture.svg" width="100%" alt="IntegrityWatch Lite architecture showing the synthetic lab, scanner, detection engine, SQLite findings, authenticated baseline and audit chain" />
 </div>
 
-**Engineering highlights**
+**What I built**
 - SHA-256 file baselines with HMAC-SHA256 baseline authentication.
-- Rule-based semantic checks, severity levels, and MITRE ATT&CK references.
-- Watchdog event monitoring backed by periodic full reconciliation.
+- Rule-based semantic checks with severity levels and MITRE ATT&CK references.
+- Watchdog filesystem events backed by periodic full reconciliation.
 - SQLite findings and a sequential SHA-256 hash-chained audit log.
 - Local Streamlit dashboard and repeatable smart-mode vs hash-only evaluation.
 
-**Measured synthetic evaluation:** 12/12 expected attack rules detected and 0/4 benign false-positive scenarios in smart mode. These are results on the project's authored test corpus—not real-world detection rates.
+**Evaluation on the authored synthetic test corpus:** smart mode detected 12/12 expected attack rules with 0/4 benign false-positive scenarios. Hash-only mode detected 11/12 attack scenarios and raised 3/4 benign alerts. These are controlled test-corpus results, not real-world detection rates.
 
-<sub>Scope note: a local, single-user teaching and evaluation tool for a synthetic lab; not enterprise endpoint protection. The repository documents its threat model and limitations.</sub>
+<sub>Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection. The repository includes the threat model, limitations, setup instructions and reproducible tests.</sub>
 
-## 03 / Technical toolkit
-
-| Category | Tools / concepts |
-|:--|:--|
-| **Programming** | Python · C · Bash |
-| **Operating systems** | Linux · Windows · WSL2 |
-| **Networking** | TCP/IP · Wireshark · Cisco Packet Tracer |
-| **Development** | Git · GitHub · VS Code |
-| **Security** | File integrity monitoring · System security · Digital forensics · Incident response |
+## Technical toolkit
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,c,bash,linux,windows,git,github,vscode&theme=dark" alt="Python, C, Bash, Linux, Windows, Git, GitHub and VS Code" />
 </div>
 
-## 04 / Current direction
+| Area | Technologies and concepts |
+|:--|:--|
+| **Programming** | Python · C · Bash |
+| **Systems** | Linux · Windows · WSL2 |
+| **Networking** | TCP/IP · Wireshark · Cisco Packet Tracer |
+| **Developer tools** | Git · GitHub · VS Code |
+| **Security** | Integrity monitoring · System security · Digital forensics · Incident response |
 
-- Deepening Linux and operating-system fundamentals.
-- Studying memory forensics and incident-response workflows.
-- Practising network analysis and security investigation.
-- Building and documenting practical cybersecurity projects.
+## What I'm learning now
 
-## 05 / GitHub activity
+- Strengthening Linux, operating-system and networking fundamentals.
+- Exploring memory forensics and incident-response workflows.
+- Practising security investigation and traffic analysis.
+- Building focused projects and documenting the engineering behind them.
+
+## GitHub activity
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&hide_border=true&rank_icon=github&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=C8D5E2" alt="GitHub statistics" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&hide_border=true&bg_color=0B1220&title_color=67E8F9&text_color=C8D5E2" alt="Most used languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&hide_border=true&rank_icon=github&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=C8D5E2" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&hide_border=true&bg_color=0B1220&title_color=67E8F9&text_color=C8D5E2" alt="Most used languages" />
   <br/>
   <img width="82%" src="https://streak-stats.demolab.com?user=trilochan-prabakar&hide_border=true&background=0B1220&ring=22D3EE&fire=22D3EE&currStreakLabel=67E8F9&sideLabels=C8D5E2&dates=8294A8" alt="GitHub contribution streak" />
 </div>
@@ -86,9 +86,11 @@ A local-first tool that detects changes in a synthetic lab, explains supported s
 ---
 
 <div align="center">
-  **Interested in practical security engineering and learning through building.**
+  **Interested in practical cybersecurity, thoughtful engineering and learning by building.**
   <br/>
-  <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/">Connect on LinkedIn</a>
+  <a href="https://trilochan-prabakar.github.io/trilochan-prabakar/">Portfolio</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/trilochan-prabakar">Explore my repositories</a>
+  <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:trilopraba@gmail.com">Email</a>
 </div>
