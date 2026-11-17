@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trilochan-prabakar.github.io/trilochan-prabakar/sitemap.xml
