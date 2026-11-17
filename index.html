@@ -38,17 +38,18 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="noise" aria-hidden="true"></div>
   <header class="topbar">
     <a class="wordmark" href="#top" aria-label="Trilochan Prabakar home"><span class="mark">TP<span>_</span></span><span class="wordmark-label">TRILOCHAN PRABAKAR</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
-    <nav class="nav" aria-label="Main navigation">
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="primary-navigation" aria-label="Main navigation">
       <a href="#about">About</a><a href="#work">Selected work</a><a href="#stack">Toolkit</a><a href="#direction">Direction</a>
-      <a class="nav-contact" href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/" target="_blank" rel="noreferrer">Connect <span>↗</span></a>
+      <a class="nav-contact" href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/" target="_blank" rel="noopener noreferrer">Connect <span>↗</span></a>
     </nav>
   </header>
 
-  <main id="top">
+  <main id="main-content" tabindex="-1">
     <section class="hero section-shell">
       <div class="hero-copy reveal">
         <div class="eyebrow"><span class="pulse"></span> CYBERSECURITY PORTFOLIO <span class="eyebrow-line"></span> INDIA</div>
@@ -60,7 +61,7 @@
         </div>
         <div class="hero-meta"><span>01 — BUILD</span><span>02 — TEST</span><span>03 — INVESTIGATE</span></div>
       </div>
-      <div class="hero-visual reveal" aria-label="Decorative security terminal illustration">
+      <div class="hero-visual reveal" aria-hidden="true">
         <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
         <div class="crosshair crosshair-a"></div><div class="crosshair crosshair-b"></div>
         <div class="terminal">
@@ -107,7 +108,7 @@
               <p class="project-description">A local-first file-integrity monitor for a controlled Linux-like lab. It detects changes, explains supported security-relevant modifications through explicit rules, and keeps a tamper-evident record of findings.</p>
               <a class="button button-primary" href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite" target="_blank" rel="noreferrer">Explore the repository <span>↗</span></a>
             </div>
-            <div class="project-diagram"><img src="assets/integritywatch-architecture.svg" alt="IntegrityWatch Lite architecture and data flow"><div class="diagram-caption">SYSTEM OVERVIEW / DATA FLOW</div></div>
+            <div class="project-diagram"><img src="assets/integritywatch-architecture.svg" alt="IntegrityWatch Lite architecture: controlled lab files flow through scanning and rule-based detection into SQLite findings and a tamper-evident audit chain" loading="lazy" decoding="async"><div class="diagram-caption">SYSTEM OVERVIEW / DATA FLOW</div></div>
           </div>
           <div class="project-details">
             <div><span class="detail-label">CORE ENGINEERING</span><ul><li>SHA-256 baselines + HMAC authentication</li><li>Rule-based semantic checks and ATT&CK references</li><li>Watchdog events + periodic reconciliation</li><li>SQLite findings + SHA-256 audit chain</li></ul></div>
