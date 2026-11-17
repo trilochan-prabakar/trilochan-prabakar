@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111e"/><stop offset="1" stop-color="#101f35"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#1c3850" stroke-width="1" opacity=".55"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+<circle cx="1000" cy="180" r="150" fill="#0891b2" opacity=".15" filter="url(#glow)"/>
+<path d="M0 286H1200" stroke="url(#edge)" stroke-width="2"/>
+<g fill="none" stroke="#22d3ee" stroke-width="1.5" opacity=".6">
+ <path d="M750 0V60H820V96H900"/><path d="M880 360V310H1000V275H1200"/><path d="M1100 0V45H1160V80H1200"/>
+ <path d="M0 75H60V115H125"/><path d="M0 240H88V210H150"/>
+</g>
+<g fill="#67e8f9"><circle cx="900" cy="96" r="3"/><circle cx="1000" cy="275" r="3"/><circle cx="1160" cy="80" r="3"/><circle cx="125" cy="115" r="3"/></g>
+<g transform="translate(825 84)">
+ <rect width="290" height="164" rx="12" fill="#081421" stroke="#27506a"/>
+ <path d="M0 34H290" stroke="#27506a"/>
+ <circle cx="18" cy="17" r="4" fill="#fb7185"/><circle cx="34" cy="17" r="4" fill="#fbbf24"/><circle cx="50" cy="17" r="4" fill="#34d399"/>
+ <text x="18" y="62" fill="#67e8f9" font-family="monospace" font-size="13">$ whoami</text>
+ <text x="18" y="84" fill="#e2e8f0" font-family="monospace" font-size="13">trilochan-prabakar</text>
+ <text x="18" y="112" fill="#67e8f9" font-family="monospace" font-size="13">$ interests --list</text>
+ <text x="18" y="135" fill="#cbd5e1" font-family="monospace" font-size="12">forensics / systems / defense</text>
+</g>
+<g transform="translate(78 72)">
+ <text x="0" y="16" fill="#67e8f9" font-family="monospace" font-size="13" letter-spacing="4">CYBERSECURITY PORTFOLIO</text>
+ <text x="0" y="92" fill="#f8fafc" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700">TRILOCHAN</text>
+ <text x="0" y="153" fill="#f8fafc" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700">PRABAKAR<tspan fill="#22d3ee">_</tspan></text>
+ <text x="2" y="195" fill="#a9bdce" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="1.5">SECURITY ENGINEERING · DIGITAL FORENSICS · INCIDENT RESPONSE</text>
+</g>
+<text x="80" y="330" fill="#648096" font-family="monospace" font-size="11" letter-spacing="2">BUILD / TEST / INVESTIGATE / IMPROVE</text>
+<text x="1118" y="330" fill="#22d3ee" font-family="monospace" font-size="11" text-anchor="end">SYSTEM ONLINE</text>
+</svg>
