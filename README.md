@@ -74,19 +74,23 @@ IntegrityWatch Lite monitors a synthetic Linux-like lab, detects file and select
 - Practising security investigation and traffic analysis.
 - Building focused projects and documenting the engineering behind them.
 
-## GitHub activity
+## GitHub
+
+I keep my work, experiments and project documentation public here.
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&hide_border=true&rank_icon=github&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=C8D5E2" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&hide_border=true&bg_color=0B1220&title_color=67E8F9&text_color=C8D5E2" alt="Most used languages" />
-  <br/>
-  <img width="82%" src="https://streak-stats.demolab.com?user=trilochan-prabakar&hide_border=true&background=0B1220&ring=22D3EE&fire=22D3EE&currStreakLabel=67E8F9&sideLabels=C8D5E2&dates=8294A8" alt="GitHub contribution streak" />
+  <a href="https://github.com/trilochan-prabakar?tab=repositories">
+    <img src="https://img.shields.io/badge/EXPLORE-My%20Repositories-0E7490?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" />
+  </a>
+  <a href="https://github.com/trilochan-prabakar?tab=activity">
+    <img src="https://img.shields.io/badge/VIEW-Recent%20Activity-164E63?style=for-the-badge&logo=github&logoColor=white" alt="View recent GitHub activity" />
+  </a>
 </div>
 
 ---
 
 <div align="center">
-  **Interested in practical cybersecurity, thoughtful engineering and learning by building.**
+  <strong>Interested in practical cybersecurity, thoughtful engineering and learning by building.</strong>
   <br/>
   <a href="https://trilochan-prabakar.github.io/trilochan-prabakar/">Portfolio</a>
   &nbsp;·&nbsp;
