@@ -95,6 +95,4 @@ I keep my work, experiments and project documentation public here.
   <a href="https://trilochan-prabakar.github.io/trilochan-prabakar/">Portfolio</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:trilopraba@gmail.com">Email</a>
 </div>
