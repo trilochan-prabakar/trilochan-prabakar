@@ -1,136 +1,120 @@
 <!--
-  TRILOCHAN PRABAKAR | CYBERSECURITY PORTFOLIO
-  Profile repository: github.com/trilochan-prabakar/trilochan-prabakar
+  TRILOCHAN PRABAKAR
+  Personal GitHub profile
 -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/cyber-banner.svg" width="100%" alt="Trilochan Prabakar — Cybersecurity and Security Engineering" />
+  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/hero.svg" width="100%" alt="Trilochan Prabakar — Cybersecurity Portfolio" />
 </div>
 
 <div align="center">
-  <a href="https://github.com/trilochan-prabakar">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=850&color=22D3EE&center=true&vCenter=true&width=700&lines=Cybersecurity+Student;Security+Engineering+%2F+Digital+Forensics;Building+practical+defensive+tools" alt="Animated introduction" />
-  </a>
-  <br/>
-  <img src="https://img.shields.io/badge/BASED_IN-INDIA-0B1220?style=flat-square&labelColor=0B1220&color=22D3EE" alt="Based in India" />
-  <img src="https://img.shields.io/badge/FOCUS-SECURITY_ENGINEERING-0B1220?style=flat-square&labelColor=0B1220&color=22D3EE" alt="Focus: Security Engineering" />
-  <img src="https://komarev.com/ghpvc/?username=trilochan-prabakar&style=flat-square&color=0891B2&label=PROFILE+VIEWS" alt="Profile views" />
+  <p>
+    <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://github.com/trilochan-prabakar"><img src="https://img.shields.io/badge/GitHub-trilochan--prabakar-20232A?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+  </p>
+  <h3>Cybersecurity student · Security engineering · Digital forensics</h3>
+  <p><i>Building practical tools. Understanding systems. Learning by doing.</i></p>
 </div>
 
 ---
 
-## 01 / PROFILE
-
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h3>Hey, I'm Trilochan.</h3>
-      <p>I'm a <b>B.Tech Cybersecurity student at Amrita Vishwa Vidyapeetham</b>. I'm interested in understanding systems from the inside, investigating how they can be compromised, and building practical tools that improve visibility and defense.</p>
-      <p>My approach is hands-on: learn the fundamentals, build something, test it, break it, and improve it.</p>
+    <td width="62%" valign="top">
+      <h2>About</h2>
+      I'm Trilochan, a B.Tech Cybersecurity student at Amrita Vishwa Vidyapeetham. I'm interested in understanding systems at a deeper level, investigating security-relevant activity, and developing practical defensive tools.
+      <br/><br/>
+      My focus is on learning the fundamentals and applying them through hands-on projects, labs, and experimentation.
     </td>
-    <td width="42%" valign="top">
-      <b>FOCUS AREAS</b><br/><br/>
-      ▸ Security engineering<br/>
-      ▸ Digital &amp; memory forensics<br/>
-      ▸ Network security<br/>
-      ▸ Security monitoring<br/>
-      ▸ Incident response
+    <td width="38%" valign="top">
+      <h2>Focus</h2>
+      <p>▸ Security engineering</p>
+      <p>▸ Linux &amp; system security</p>
+      <p>▸ Digital &amp; memory forensics</p>
+      <p>▸ Network security</p>
+      <p>▸ Incident response</p>
     </td>
   </tr>
 </table>
 
-## 02 / TOOLKIT
+## Technical toolkit
 
 <div align="center">
-  <h3>Languages · Systems · Tools</h3>
-  <img src="https://skillicons.dev/icons?i=python,c,bash,linux,windows,git,github,vscode&theme=dark" alt="Python, C, Bash, Linux, Windows, Git, GitHub, VS Code" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/WIRESHARK-PACKET_ANALYSIS-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark packet analysis" />
-  <img src="https://img.shields.io/badge/TCP%2FIP-NETWORKING-0E7490?style=for-the-badge" alt="TCP/IP networking" />
-  <img src="https://img.shields.io/badge/CISCO_PACKET_TRACER-NETWORK_LABS-0369A1?style=for-the-badge" alt="Cisco Packet Tracer" />
+  <img src="https://skillicons.dev/icons?i=python,c,bash,linux,windows,git,github,vscode&theme=dark" alt="Python, C, Bash, Linux, Windows, Git, GitHub and VS Code" />
 </div>
 
-| Domain | Technologies / Concepts |
+| Area | Tools and technologies |
 |:--|:--|
 | Programming | Python, C, Bash |
 | Operating systems | Linux, Windows |
 | Networking | TCP/IP, Wireshark, Cisco Packet Tracer |
-| Developer workflow | Git, GitHub, VS Code |
-| Security interests | File integrity monitoring, system security, digital forensics, incident response |
+| Development | Git, GitHub, VS Code |
+| Security | File integrity monitoring, system security, digital forensics, incident response |
 
-## 03 / FEATURED BUILD
+---
 
-<div align="center">
-  <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=trilochan-prabakar&repo=IntegrityWatch-Lite&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=C9D1D9" alt="IntegrityWatch Lite repository card" />
-  </a>
-</div>
-
-### IntegrityWatch Lite
-**Explainable File Integrity Monitoring**
-
-A local-first security tool that monitors a controlled Linux-like lab, detects file changes, explains security-relevant modifications using explicit rules, and maintains a tamper-evident audit history.
+## Featured project
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <b>DETECTION &amp; ANALYSIS</b><br/><br/>
-      ▸ SHA-256 file baselines<br/>
-      ▸ Filesystem event monitoring + reconciliation<br/>
-      ▸ Semantic checks for selected configuration files<br/>
-      ▸ Severity levels and MITRE ATT&amp;CK references
+    <td valign="top" width="58%">
+      <h3><a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">IntegrityWatch Lite</a></h3>
+      <p><b>Explainable file integrity monitoring</b></p>
+      <p>A local-first security tool that monitors a controlled Linux-like lab, detects file changes, explains supported security-relevant modifications through explicit rules, and maintains tamper-evident audit history.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-Implementation-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/SQLite-Audit%20storage-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white" alt="Streamlit" />
+      </p>
+      <p><a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">Explore repository →</a></p>
     </td>
-    <td width="50%" valign="top">
-      <b>INTEGRITY &amp; VISIBILITY</b><br/><br/>
-      ▸ HMAC-authenticated baseline<br/>
-      ▸ Hash-chained SQLite audit history<br/>
-      ▸ Local Streamlit dashboard<br/>
-      ▸ Smart-rule vs hash-only evaluation
+    <td valign="top" width="42%">
+      <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/integritywatch-architecture.svg" width="100%" alt="IntegrityWatch Lite architecture diagram" />
     </td>
   </tr>
 </table>
 
-**Built with:** Python · Watchdog · SQLite · PyYAML · Streamlit · pytest
+**What it demonstrates**
 
-The project is designed for controlled, local evaluation and learning—not as a claim of enterprise endpoint protection.
+- SHA-256 baselines and file metadata comparison
+- Semantic checks for selected Linux configuration files
+- Rule-based findings with severity and MITRE ATT&amp;CK references
+- HMAC-authenticated baseline
+- SQLite findings with a SHA-256 hash-chained audit log
+- Filesystem event monitoring with periodic reconciliation
+- Local Streamlit dashboard and repeatable evaluation
+
+<sub>Designed for controlled, local evaluation of a synthetic lab — not presented as enterprise endpoint protection.</sub>
+
+---
+
+## Current learning
 
 <div align="center">
-  <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite">
-    <img src="https://img.shields.io/badge/OPEN_PROJECT-22D3EE?style=for-the-badge&logo=github&logoColor=0B1220&labelColor=0B1220" alt="Open IntegrityWatch Lite project" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" width="25%"><b>01</b><br/>Linux internals<br/><sub>System behaviour</sub></td>
+      <td align="center" width="25%"><b>02</b><br/>Memory forensics<br/><sub>Evidence analysis</sub></td>
+      <td align="center" width="25%"><b>03</b><br/>Incident response<br/><sub>Detection &amp; triage</sub></td>
+      <td align="center" width="25%"><b>04</b><br/>Network analysis<br/><sub>Traffic investigation</sub></td>
+    </tr>
+  </table>
 </div>
 
-## 04 / CURRENT LEARNING TRACK
+## GitHub activity
 
 <div align="center">
-  <img src="https://img.shields.io/badge/01-LINUX_INTERNALS-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Linux internals" />
-  <img src="https://img.shields.io/badge/02-MEMORY_FORENSICS-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Memory forensics" />
-  <img src="https://img.shields.io/badge/03-INCIDENT_RESPONSE-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Incident response" />
-  <img src="https://img.shields.io/badge/04-NETWORK_ANALYSIS-0B1220?style=for-the-badge&labelColor=0B1220&color=0891B2" alt="Network analysis" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=22D3EE&text_color=C9D1D9" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9" alt="Most used languages" />
+  <br/><br/>
+  <img width="82%" src="https://streak-stats.demolab.com?user=trilochan-prabakar&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=8B949E" alt="GitHub contribution streak" />
 </div>
 
-I’m continuing to develop my understanding through coursework, labs, technical projects, and practical experimentation.
-
-## 05 / GITHUB ACTIVITY
+---
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&rank_icon=github&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=C9D1D9" alt="GitHub statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=67E8F9&text_color=C9D1D9" alt="Most used languages" />
+  <h3>Let's connect</h3>
+  <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/"><img src="https://img.shields.io/badge/LinkedIn-Trilochan%20Prabakar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
   <br/><br/>
-  <img width="92%" src="https://streak-stats.demolab.com?user=trilochan-prabakar&theme=tokyonight&hide_border=true&background=0B1220&ring=22D3EE&fire=22D3EE&currStreakLabel=67E8F9" alt="GitHub contribution streak" />
-  <br/><br/>
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=trilochan-prabakar&bg_color=0B1220&color=C9D1D9&line=22D3EE&point=67E8F9&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
-</div>
-
-## 06 / CONNECT
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/">
-    <img src="https://img.shields.io/badge/LINKEDIN-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
-  </a>
-  <a href="https://github.com/trilochan-prabakar">
-    <img src="https://img.shields.io/badge/GITHUB-FOLLOW_MY_WORK-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" />
-  </a>
-  <br/><br/>
-  <sub><b>LEARN DEEPLY. BUILD PRACTICALLY. DEFEND BETTER.</b></sub>
+  <sub>Curious by nature. Practical by approach.</sub>
 </div>
