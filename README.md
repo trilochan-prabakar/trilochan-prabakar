@@ -4,7 +4,7 @@
 -->
 
 <div align="center">
-  <img src="./assets/cyber-banner.svg" width="100%" alt="Trilochan Prabakar — Cybersecurity and Security Engineering" />
+  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/cyber-banner.svg" width="100%" alt="Trilochan Prabakar — Cybersecurity and Security Engineering" />
 </div>
 
 <div align="center">
