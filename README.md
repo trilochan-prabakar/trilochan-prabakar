@@ -9,7 +9,6 @@
 
   <a href="https://trilochan-prabakar.github.io/trilochan-prabakar/"><img src="https://img.shields.io/badge/PORTFOLIO-Explore-55D9E8?style=for-the-badge&logo=googlechrome&logoColor=07131C" alt="Portfolio website" /></a>
   <a href="https://www.linkedin.com/in/trilochan-prabakar-baa17a408/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/trilochan-prabakar/IntegrityWatch-Lite"><img src="https://img.shields.io/badge/FEATURED_PROJECT-IntegrityWatch-0E7490?style=for-the-badge&logo=github&logoColor=white" alt="IntegrityWatch Lite repository" /></a>
 </div>
 
 ---
@@ -27,7 +26,7 @@ I learn by building, testing and documenting practical security tools. I care ab
 - Network security and traffic analysis
 - Incident response and investigation workflows
 
-## Featured project
+## Featured projects
 
 ### IntegrityWatch Lite
 **Explainable file-integrity monitoring for a controlled Linux-like lab**
@@ -51,7 +50,18 @@ IntegrityWatch Lite monitors a synthetic Linux-like lab, detects file and select
 
 **Evaluation on the authored synthetic test corpus:** smart mode detected 12/12 expected attack rules with 0/4 benign false-positive scenarios. Hash-only mode detected 11/12 attack scenarios and raised 3/4 benign alerts. These are controlled test-corpus results, not real-world detection rates.
 
-<sub>Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection. The repository includes the threat model, limitations, setup instructions and reproducible tests.</sub>
+<sub>Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection.</sub>
+
+### Dynamic QoS-Aware SDN
+**Controller-driven path selection and failover in a Mininet diamond topology**
+
+<a href="https://github.com/trilochan-prabakar/dynamic-qos-aware-sdn">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-Dynamic_QoS_Aware_SDN-0E7490?style=flat-square&logo=github&logoColor=white" alt="View Dynamic QoS-Aware SDN repository" />
+</a>
+
+A Computer Networks group assignment that I helped refine through controller hardening, regression tests and Mininet runtime validation. The Ryu controller uses OpenFlow 1.3, port-statistics-based utilization estimates and a strict reroute threshold to respond to congestion and link failure. Original group-project attribution is retained in the repository.
+
+<sub>Validation: 31 automated tests passed; congestion rerouting, link failover/recovery and end-to-end connectivity were exercised in the documented virtual lab. Configured delay/loss/jitter profiles are not live measurements.</sub>
 
 ## Technical toolkit
 
@@ -63,7 +73,7 @@ IntegrityWatch Lite monitors a synthetic Linux-like lab, detects file and select
 |:--|:--|
 | **Programming** | Python · C · Bash |
 | **Systems** | Linux · Windows · WSL2 |
-| **Networking** | TCP/IP · Wireshark · Cisco Packet Tracer |
+| **Networking** | TCP/IP · Wireshark · Cisco Packet Tracer · Mininet · OpenFlow |
 | **Developer tools** | Git · GitHub · VS Code |
 | **Security** | Integrity monitoring · System security · Digital forensics · Incident response |
 
