@@ -49,6 +49,8 @@ REMNANT tests whether a cached response remains accessible after the requesting 
 
 <sub>Validation: 67 tests passed with local Redis integration; GitHub Actions CI verified. Python · FastAPI · Redis · SQLite · pytest · Docker. MIT License.</sub>
 
+---
+
 ### VERITY
 **Forensic timestamp normalization and interval comparison**
 
@@ -69,6 +71,8 @@ VERITY is a Python library and CLI that decodes selected forensic timestamps, no
 - Validation and explanations for unresolved or invalid timestamp records.
 
 <sub>Validation: 55 tests passed locally with 88% coverage; GitHub Actions CI passed on Python 3.10, 3.11, 3.12 and 3.13, with per-version coverage artifacts. Python · dfDateTime · pytest. Based on the timestamp model by Hornung et al., TIME 2026.</sub>
+
+---
 
 ### IntegrityWatch Lite
 **Explainable file-integrity monitoring for a controlled Linux-like lab**
@@ -93,6 +97,8 @@ IntegrityWatch Lite monitors a synthetic Linux-like lab, detects file and select
 **Evaluation on the authored synthetic test corpus:** smart mode detected 12/12 expected attack rules with 0/4 benign false-positive scenarios. Hash-only mode detected 11/12 attack scenarios and raised 3/4 benign alerts. These are controlled test-corpus results, not real-world detection rates.
 
 <sub>Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection.</sub>
+
+---
 
 ### Dynamic QoS-Aware SDN
 **Controller-driven path selection and failover in a Mininet diamond topology**
