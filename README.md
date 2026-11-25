@@ -77,9 +77,10 @@ VERITY is a Python library and CLI that decodes selected forensic timestamps, no
 ### FORACE
 **Explainable file-integrity monitoring for a controlled Linux-like lab**
 
-<a href="https://github.com/trilochan-prabakar/FORACE-Lite">
+<a href="https://github.com/trilochan-prabakar/FORACE">
   <img src="https://img.shields.io/badge/VIEW_REPOSITORY-FORACE-0E7490?style=flat-square&logo=github&logoColor=white" alt="View FORACE repository" />
 </a>
+<img src="https://img.shields.io/badge/V1-COMPLETE-164E63?style=flat-square" alt="FORACE V1 complete" />
 
 FORACE monitors a synthetic Linux-like lab, detects file and selected metadata changes, explains supported security-relevant modifications through explicit rules, and records findings in a tamper-evident audit history.
 
@@ -93,11 +94,11 @@ FORACE monitors a synthetic Linux-like lab, detects file and selected metadata c
 - Watchdog filesystem events backed by periodic full reconciliation.
 - SQLite findings and a sequential SHA-256 hash-chained audit log.
 - Local Streamlit dashboard and repeatable smart-mode vs hash-only evaluation.
+- Primary `forace` package and CLI, with backward-compatible `integritywatch` imports and command entry point.
 
 **Evaluation on the authored synthetic test corpus:** smart mode detected 12/12 expected attack rules with 0/4 benign false-positive scenarios. Hash-only mode detected 11/12 attack scenarios and raised 3/4 benign alerts. These are controlled test-corpus results, not real-world detection rates.
 
-<sub>Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection.</sub>
-
+<sub>Validation: 196 automated tests passed. Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection.</sub>
 ---
 
 ### Dynamic QoS-Aware SDN
