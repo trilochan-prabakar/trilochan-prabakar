@@ -137,7 +137,7 @@ A Computer Networks group assignment that I helped refine through controller har
 A snapshot of my public GitHub activity and most-used languages. These cards are generated dynamically and may take a moment to load.
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&include_all_commits=true&hide_border=true&theme=transparent" alt="GitHub statistics for trilochan-prabakar" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=trilochan-prabakar&show_icons=true&hide_border=true&theme=transparent" alt="GitHub statistics for trilochan-prabakar" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trilochan-prabakar&layout=compact&hide_border=true&theme=transparent" alt="Most-used programming languages on GitHub" />
 </div>
 
