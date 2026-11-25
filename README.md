@@ -94,7 +94,7 @@ FORACE monitors a synthetic Linux-like lab, detects file and selected metadata c
 - Watchdog filesystem events backed by periodic full reconciliation.
 - SQLite findings and a sequential SHA-256 hash-chained audit log.
 - Local Streamlit dashboard and repeatable smart-mode vs hash-only evaluation.
-- Primary `forace` package and CLI, with backward-compatible `integritywatch` imports and command entry point.
+- Standalone `forace` package and CLI using `python -m forace`.
 
 **Evaluation on the authored synthetic test corpus:** smart mode detected 12/12 expected attack rules with 0/4 benign false-positive scenarios. Hash-only mode detected 11/12 attack scenarios and raised 3/4 benign alerts. These are controlled test-corpus results, not real-world detection rates.
 
