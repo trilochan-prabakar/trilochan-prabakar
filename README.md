@@ -49,6 +49,27 @@ REMNANT tests whether a cached response remains accessible after the requesting 
 
 <sub>Validation: 67 tests passed with local Redis integration; GitHub Actions CI verified. Python · FastAPI · Redis · SQLite · pytest · Docker. MIT License.</sub>
 
+### VERITY
+**Forensic timestamp normalization and interval comparison**
+
+<a href="https://github.com/trilochan-prabakar/VERITY">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-VERITY-0E7490?style=flat-square&logo=github&logoColor=white" alt="View VERITY repository" />
+</a>
+<a href="https://github.com/trilochan-prabakar/VERITY/releases/tag/v1.0.0">
+  <img src="https://img.shields.io/badge/RELEASE-V1.0.0-164E63?style=flat-square&logo=github&logoColor=white" alt="VERITY V1.0.0 release" />
+</a>
+
+VERITY is a Python library and CLI that decodes selected forensic timestamps, normalizes them into closed UTC intervals, and compares event intervals using weak precedence. It preserves source inputs and requires explicit metadata rather than guessing timezones.
+
+**What I built**
+- Timestamp decoding for APFS, NTFS FILETIME, exFAT and Discord Snowflake values.
+- Closed-interval normalization using integer nanoseconds.
+- Pairwise event comparison with explicit handling of overlapping or undetermined intervals.
+- CSV-based input, normalized output and comparison reports.
+- Validation and explanations for unresolved or invalid timestamp records.
+
+<sub>Validation: 55 tests passed locally with 88% coverage; GitHub Actions CI passed on Python 3.10, 3.11, 3.12 and 3.13, with per-version coverage artifacts. Python · dfDateTime · pytest. Based on the timestamp model by Hornung et al., TIME 2026.</sub>
+
 ### IntegrityWatch Lite
 **Explainable file-integrity monitoring for a controlled Linux-like lab**
 
