@@ -28,6 +28,27 @@ I learn by building, testing and documenting practical security tools. I care ab
 
 ## Featured projects
 
+### REMNANT
+**Stateful Cache–Authorization Consistency Testing Framework**
+
+<a href="https://github.com/trilochan-prabakar/REMNANT">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-REMNANT-0E7490?style=flat-square&logo=github&logoColor=white" alt="View REMNANT repository" />
+</a>
+<a href="https://github.com/trilochan-prabakar/REMNANT/releases/tag/v1.0.0">
+  <img src="https://img.shields.io/badge/RELEASE-V1.0.0-164E63?style=flat-square&logo=github&logoColor=white" alt="REMNANT V1.0.0 release" />
+</a>
+
+REMNANT tests whether a cached response remains accessible after the requesting user's authorization has been revoked. It independently checks the origin's authorization decision against cache behavior to identify cache–authorization inconsistencies.
+
+**What I built**
+- FastAPI-based protected origin with independent authorization checks.
+- Redis-backed response caching and a reproducible authorization-revocation experiment.
+- A precise finding oracle: origin denies access, cache returns a hit, and the protected canary matches.
+- SQLite evidence persistence with experiment-stage records and findings.
+- JSON and standalone HTML security reports.
+
+<sub>Validation: 67 tests passed with local Redis integration; GitHub Actions CI verified. Python · FastAPI · Redis · SQLite · pytest · Docker. MIT License.</sub>
+
 ### IntegrityWatch Lite
 **Explainable file-integrity monitoring for a controlled Linux-like lab**
 
