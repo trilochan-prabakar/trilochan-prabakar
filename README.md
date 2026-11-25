@@ -84,7 +84,7 @@ VERITY is a Python library and CLI that decodes selected forensic timestamps, no
 FORACE monitors a synthetic Linux-like lab, detects file and selected metadata changes, explains supported security-relevant modifications through explicit rules, and records findings in a tamper-evident audit history.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/forace-architecture.svg" width="100%" alt="FORACE architecture showing the synthetic lab, scanner, detection engine, SQLite findings, authenticated baseline and audit chain" />
+  <img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/integritywatch-architecture.svg" width="100%" alt="FORACE architecture showing the synthetic lab, scanner, detection engine, SQLite findings, authenticated baseline and audit chain" />
 </div>
 
 **What I built**
