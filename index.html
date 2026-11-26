@@ -107,8 +107,8 @@
           <div class="project-main">
             <div class="project-copy">
               <div class="project-kicker">BACKEND SECURITY / CACHE-AUTHORIZATION TESTING</div>
-              <h2>REMNANT<br><em>V1</em><span class="cyan">.</span></h2>
-              <p class="project-description">A stateful testing framework that checks whether a protected response can still be served from Redis after the origin revokes the requesting user's access. It compares the origin's independent authorization decision with the cache response.</p>
+              <h2>REMNANT<br><em>V2</em><span class="cyan">.</span></h2>
+              <p class="project-description">A stateful testing framework that checks whether a protected response can still be served from Redis after the origin revokes the requesting user's access. V2 adds explicit cache-state observations, versioned metadata, differential response diagnostics, a selectable tenant-aware policy path, and transactional evidence while preserving the original three-condition finding oracle.</p>
               <a class="button button-primary" href="https://github.com/trilochan-prabakar/REMNANT" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a>
             </div>
             <div class="project-diagram">
@@ -119,8 +119,9 @@
                   <div class="terminal-output">02  prime Redis cache</div>
                   <div class="terminal-output">03  revoke permission</div>
                   <div class="terminal-output">04  query protected origin</div>
-                  <div class="terminal-output">05  compare cached response</div>
-                  <div class="status-line">ORACLE: origin deny + cache HIT + canary match</div>
+                  <div class="terminal-output">05  observe cache + compare response</div>
+                  <div class="terminal-output">06  validate tenant policy + evidence</div>
+                  <div class="status-line">ORACLE: origin 403 + cache HIT + canary match</div>
                 </div>
               </div>
               <div class="diagram-caption">EXPERIMENT SEQUENCE / FINDING ORACLE</div>
@@ -128,12 +129,12 @@
           </div>
           <div class="project-details">
             <div><span class="detail-label">ENGINEERING WORK</span><ul>
-              <li>FastAPI protected origin with independent authorization checks</li>
-              <li>Redis response caching and reproducible permission-revocation experiment</li>
-              <li>SQLite evidence persistence with six experiment stages</li>
-              <li>JSON and standalone HTML security reports</li>
+              <li>FastAPI origin adapters, including bounded loopback HTTP integration</li>
+              <li>Redis cache observations, versioned metadata and differential response diagnostics</li>
+              <li>Selectable tenant-aware, default-deny authorization policy path</li>
+              <li>Transactional SQLite evidence with JSON and standalone HTML reports</li>
             </ul></div>
-            <div><span class="detail-label">VALIDATION</span><div class="metrics"><div><strong>67</strong><span>tests passed<br>including Redis integration</span></div><div><strong>v1.0.0</strong><span>released<br>GitHub Actions CI verified</span></div></div><p class="scope-note">A focused test harness for the configured principal, resource and cache path—not a universal cache vulnerability scanner.</p></div>
+            <div><span class="detail-label">VALIDATION</span><div class="metrics"><div><strong>215</strong><span>tests passed<br>local WSL + GitHub Actions</span></div><div><strong>v2.0.0</strong><span>released<br>GitHub release published</span></div></div><p class="scope-note">A focused test harness for the configured principal, resource and cache path—not a universal cache vulnerability scanner.</p></div>
           </div>
           <div class="project-footer"><span>PYTHON</span><span>FASTAPI</span><span>HTTPX</span><span>REDIS</span><span>SQLITE</span><span>PYTEST</span><span>DOCKER</span></div>
         </article>
