@@ -107,9 +107,9 @@
           <div class="project-main">
             <div class="project-copy">
               <div class="project-kicker">BACKEND SECURITY / CACHE-AUTHORIZATION TESTING</div>
-              <h2>REMNANT<br><em>V2</em><span class="cyan">.</span></h2>
-              <p class="project-description">A stateful testing framework that checks whether a protected response can still be served from Redis after the origin revokes the requesting user's access. V2 adds explicit cache-state observations, versioned metadata, differential response diagnostics, a selectable tenant-aware policy path, and transactional evidence while preserving the original three-condition finding oracle.</p>
-              <a class="button button-primary" href="https://github.com/trilochan-prabakar/REMNANT" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a>
+              <h2>REMNANT<br><em>V3</em><span class="cyan">.</span></h2>
+              <p class="project-description">A cache-authorization security testing framework that investigates whether HTTP caches can serve protected responses outside their intended authorization boundary. V3 adds YAML-driven HTTP scenarios, cache protocol diagnostics, cross-identity isolation testing, body-free evidence persistence, run comparison and a Varnish 7.6 integration fixture.</p>
+              <div class="hero-actions"><a class="button button-primary" href="https://github.com/trilochan-prabakar/REMNANT" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a><a class="text-link" href="https://github.com/trilochan-prabakar/REMNANT/releases/tag/v3.0.0" target="_blank" rel="noopener noreferrer">V3.0.0 release ↗</a></div>
             </div>
             <div class="project-diagram">
               <div class="terminal">
@@ -119,9 +119,10 @@
                   <div class="terminal-output">02  prime Redis cache</div>
                   <div class="terminal-output">03  revoke permission</div>
                   <div class="terminal-output">04  query protected origin</div>
-                  <div class="terminal-output">05  observe cache + compare response</div>
-                  <div class="terminal-output">06  validate tenant policy + evidence</div>
-                  <div class="status-line">ORACLE: origin 403 + cache HIT + canary match</div>
+                  <div class="terminal-output">05  analyze cache directives + freshness</div>
+                  <div class="terminal-output">06  test cross-identity isolation</div>
+                  <div class="terminal-output">07  persist body-free evidence</div>
+                  <div class="status-line">V3: HTTP scenarios + Varnish 7.6</div>
                 </div>
               </div>
               <div class="diagram-caption">EXPERIMENT SEQUENCE / FINDING ORACLE</div>
@@ -129,14 +130,14 @@
           </div>
           <div class="project-details">
             <div><span class="detail-label">ENGINEERING WORK</span><ul>
-              <li>FastAPI origin adapters, including bounded loopback HTTP integration</li>
-              <li>Redis cache observations, versioned metadata and differential response diagnostics</li>
-              <li>Selectable tenant-aware, default-deny authorization policy path</li>
-              <li>Transactional SQLite evidence with JSON and standalone HTML reports</li>
+              <li>YAML-driven HTTP scenario runner with separate origin and proxy clients</li>
+              <li>Cacheability, freshness, Cache-Control, Expires, Vary and Set-Cookie diagnostics</li>
+              <li>Strict cross-identity isolation oracle and body-free SQLite evidence</li>
+              <li>Run comparison, bounded read-only concurrency and Varnish 7.6 integration</li>
             </ul></div>
-            <div><span class="detail-label">VALIDATION</span><div class="metrics"><div><strong>215</strong><span>tests passed<br>local WSL + GitHub Actions</span></div><div><strong>v2.0.0</strong><span>released<br>GitHub release published</span></div></div><p class="scope-note">A focused test harness for the configured principal, resource and cache path—not a universal cache vulnerability scanner.</p></div>
+            <div><span class="detail-label">VALIDATION</span><div class="metrics"><div><strong>V3.0.0</strong><span>published<br>November 26, 2026</span></div><div><strong>CI</strong><span>full suite + Varnish<br>post-merge workflows passed</span></div></div><p class="scope-note">A focused test harness for the configured principal, resource and cache path—not a universal cache vulnerability scanner.</p></div>
           </div>
-          <div class="project-footer"><span>PYTHON</span><span>FASTAPI</span><span>HTTPX</span><span>REDIS</span><span>SQLITE</span><span>PYTEST</span><span>DOCKER</span></div>
+          <div class="project-footer"><span>PYTHON</span><span>FASTAPI</span><span>HTTPX</span><span>REDIS</span><span>SQLITE</span><span>VARNISH</span><span>PYTEST</span></div>
         </article>
 
         <article class="project-card reveal">
