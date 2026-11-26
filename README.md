@@ -48,27 +48,31 @@ REMNANT investigates whether HTTP caching can violate authorization boundaries. 
 
 ---
 
-### FORACE
-**Explainable file-integrity monitoring for a controlled Linux-like lab**
+### FORACE — V2.0.0
+**Explainable file-integrity monitoring and evidence history for a controlled Linux-like lab**
 
 <a href="https://github.com/trilochan-prabakar/FORACE"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-FORACE-0E7490?style=flat-square&logo=github&logoColor=white" alt="View FORACE repository" /></a>
-<img src="https://img.shields.io/badge/V1-COMPLETE-164E63?style=flat-square" alt="FORACE V1 complete" />
+<a href="https://github.com/trilochan-prabakar/FORACE/releases/tag/v2.0.0"><img src="https://img.shields.io/badge/RELEASE-V2.0.0-164E63?style=flat-square&logo=github&logoColor=white" alt="FORACE V2.0.0 release" /></a>
+<a href="https://github.com/trilochan-prabakar/FORACE/actions"><img src="https://img.shields.io/badge/CI-PASSING-0E7490?style=flat-square&logo=githubactions&logoColor=white" alt="FORACE GitHub Actions" /></a>
 
-FORACE monitors a synthetic Linux-like lab, detects file and selected metadata changes, explains supported security-relevant modifications through explicit rules, and records findings in a tamper-evident audit history.
+FORACE monitors a synthetic Linux-like lab, detects file and selected metadata changes, explains supported security-relevant modifications through explicit rules, and records findings in a tamper-evident audit history. V2 strengthens scan reliability and evidence provenance by recording per-file observations, linking findings to scans, and verifying observation manifests against the audit chain.
 
 <div align="center"><img src="https://raw.githubusercontent.com/trilochan-prabakar/trilochan-prabakar/main/assets/forace-architecture.svg" width="100%" alt="FORACE architecture showing the synthetic lab, scanner, detection engine, SQLite findings, authenticated baseline and audit chain" /></div>
 
 **What I built**
-- SHA-256 file baselines with HMAC-SHA256 baseline authentication.
-- Rule-based semantic checks with severity levels and MITRE ATT&CK references.
+- SHA-256 file observations and HMAC-SHA256 authenticated baselines.
+- Rule-based semantic checks R01–R12 with severity levels and MITRE ATT&CK references.
 - Watchdog filesystem events backed by periodic full reconciliation.
-- SQLite findings and a sequential SHA-256 hash-chained audit log.
-- Local Streamlit dashboard and repeatable smart-mode vs hash-only evaluation.
-- Standalone forace package and CLI using python -m forace.
+- SQLite findings linked to originating scans through `scan_id`, with atomic scan/finding/audit persistence.
+- Per-file observation history, explicit completed / completed-with-errors / failed scan states, and audit-linked manifest verification.
+- CLI commands for scan history and evidence verification, plus a read-only Streamlit investigation dashboard.
+- Isolated synthetic attack and benign evaluations, with reproducible reports.
 
-**Evaluation on the authored synthetic test corpus:** smart mode detected 12/12 expected attack rules with 0/4 benign false-positive scenarios. Hash-only mode detected 11/12 attack scenarios and raised 3/4 benign alerts. These are controlled test-corpus results, not real-world detection rates.
+**Evaluation on the 30-scenario synthetic corpus:** smart mode detected 20/20 simulated attack scenarios with alerts on 0/10 benign scenarios. Hash-only comparison detected 18/20 attack scenarios and alerted on 9/10 benign scenarios. These are controlled corpus results, not real-world detection rates.
 
-<sub>Validation: 196 automated tests passed. Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection.</sub>
+<sub>V2.0.0 published November 27, 2026. Validation: 225 automated tests passed in CI on Python 3.11 and 3.12. Python · Watchdog · PyYAML · SQLite · Streamlit · pandas · pytest. MIT License.</sub>
+
+> Scope: a local, single-user teaching and evaluation tool for a synthetic lab—not enterprise endpoint protection. File observations are point-in-time; the local audit chain is tamper-evident, not immutable against an attacker able to rewrite the database.
 
 ---
 
