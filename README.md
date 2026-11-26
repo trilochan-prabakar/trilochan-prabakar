@@ -24,27 +24,27 @@ I learn by building, testing and documenting practical tools. I care about the e
 
 ## Featured projects
 
-### REMNANT — V2.0.0
-**Stateful Cache–Authorization Consistency Testing Framework**
+### REMNANT — V3.0.0
+**HTTP Cache Authorization & Identity-Isolation Security Testing Framework**
 
 <a href="https://github.com/trilochan-prabakar/REMNANT"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-REMNANT-0E7490?style=flat-square&logo=github&logoColor=white" alt="View REMNANT repository" /></a>
-<a href="https://github.com/trilochan-prabakar/REMNANT/releases/tag/v2.0.0"><img src="https://img.shields.io/badge/RELEASE-V2.0.0-164E63?style=flat-square&logo=github&logoColor=white" alt="REMNANT V2.0.0 release" /></a>
-<a href="https://github.com/trilochan-prabakar/REMNANT/actions"><img src="https://img.shields.io/badge/TESTS-215%20PASSED-0E7490?style=flat-square&logo=githubactions&logoColor=white" alt="215 tests passed in release validation" /></a>
+<a href="https://github.com/trilochan-prabakar/REMNANT/releases/tag/v3.0.0"><img src="https://img.shields.io/badge/RELEASE-V3.0.0-164E63?style=flat-square&logo=github&logoColor=white" alt="REMNANT V3.0.0 release" /></a>
+<a href="https://github.com/trilochan-prabakar/REMNANT/actions"><img src="https://img.shields.io/badge/CI-PASSING-0E7490?style=flat-square&logo=githubactions&logoColor=white" alt="REMNANT GitHub Actions" /></a>
 
-REMNANT tests whether a cached protected response remains available after the requesting principal's authorization is revoked. It compares the origin's independent authorization decision with the normal cache path in a controlled, reproducible experiment.
+REMNANT investigates whether HTTP caching can violate authorization boundaries. It began with a controlled grant → cache → revoke → replay experiment and now includes a separate V3 HTTP scenario runner for cache behavior and cross-identity isolation testing.
 
 **What I built**
-- FastAPI protected-origin adapters, including an in-process ASGI path and a bounded loopback HTTP adapter.
-- Redis-backed response caching with explicit cache observations and versioned metadata.
-- A strict three-condition finding oracle: origin returns HTTP 403, cache path reports HIT, and the expected resource canary matches.
-- Differential response diagnostics for status, selected headers, body digest and canary.
-- A separately selectable tenant-aware, default-deny policy path.
-- Transactional SQLite evidence persistence and JSON / standalone HTML reports.
-- Integration and robustness coverage for real Redis, loopback HTTP, transient backend failures, tenant isolation and bounded concurrent runs.
+- V1/V2 authorization replay experiment with Redis-backed response caching and a strict three-condition finding oracle.
+- FastAPI protected-origin adapters, explicit cache observations and versioned metadata.
+- Differential response diagnostics, tenant-aware policy testing, SQLite evidence, and JSON / standalone HTML reports.
+- V3 YAML-driven HTTP scenarios with separate origin and proxy clients.
+- HTTP cache diagnostics covering cacheability, freshness, Cache-Control, Expires, Vary, Set-Cookie and observed cache states.
+- Cross-identity isolation detection using strict authorization, proxy response, cache-hit and foreign-canary conditions.
+- Body-free V3 SQLite evidence, run comparison, bounded concurrency for read-only scenarios, and a Varnish 7.6 integration fixture.
 
-<sub>Validation: 215 tests passed locally in WSL and 215 passed in GitHub Actions for the V2 release. Python 3.12 · FastAPI · HTTPX · Redis 7 · SQLite · pytest. MIT License.</sub>
+<sub>V3.0.0 published November 26, 2026. Post-merge full-suite and V3/Varnish GitHub Actions workflows passed. Python 3.12 · FastAPI · HTTPX · Redis 7 · SQLite · pytest · Varnish 7.6. MIT License.</sub>
 
-> Scope: a controlled research and testing harness for the configured principal, resource, origin and cache path—not a general-purpose vulnerability scanner or production authorization system.
+> Scope: a controlled research and testing harness—not a general-purpose vulnerability scanner or production authorization system. A negative result does not prove a target is free of cache-related authorization flaws.
 
 ---
 
